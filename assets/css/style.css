@@ -8,15 +8,23 @@ body {
 	background-image: url(../images/astro.png);
 	background-attachment: fixed;
     background-position: center; 
+    background-size: cover;
 }
 
 h1 {
 	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 2px 2px 5px black;
+}
+
+
+h4{
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
 }
 
 p {
 	text-align: center;
-	font-family: 'K2D', sans-serif;
 }
 
 a {
@@ -27,29 +35,42 @@ a {
 	margin-top: 200px;
 }
 
+.container2 {
+	margin-top: 300px;
+}
+
 #image-sec {
 	height: 100vh;
 	width: 100%;
 }
 
 #skills {
-	height: 100vh;
+	height: 400px;
 	width: 100%;
 	color: white;
-	font-family: 'Mali', cursive;
+	line-height: 1.5;
+	background-color: rgba(51,51,51,0.5);
 
 }
 
 #portfolio {
-	height: 100vh;
+	height: 400px;
 	width: 100%;
 	color: white;
-	font-family: 'Mali', cursive;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	line-height: 1.5;
+	background-color: rgba(51,51,51,0.5);
 }
 
 #contact {
-	height: 100vh;
+	height: 400px;
 	width: 100%;
 	color: white;
-	font-family: 'Mali', cursive;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	line-height: 1.5;
+	background-color: rgba(51,51,51,0.5);
 }
